@@ -9,6 +9,7 @@ import VanKessel from "../assets/images/vanKessel.png"
 import Cobblestone from "../assets/images/cobblestone.png"
 import PdaPerform from "../assets/images/pdadriving.png"
 import WayBackFlow from "../assets/images/1waybackflow.png"
+import CutzClub from "../assets/images/image.png"
 function ProjectCard({ img, title, link, subtitle, discr }) {
   return (
     <div className=" bg-white rounded-lg shadow-md overflow-hidden m-4">
@@ -73,6 +74,12 @@ export default function Projects() {
       link: "https://pdadriving.co.uk/",
       title: 'PDA-Perform',
       discr: 'As a Front-End Developer, I designed and built a responsive website for PDA-Perform Driving Academy using HTML5, CSS3, Bootstrap 5, and JavaScript. The site features a modern UI with a dynamic carousel, interactive FAQ accordions, testimonial sliders (Owl Carousel), and embedded Google Maps for location visibility. I integrated a WhatsApp floating button for instant customer support and ensured cross-device compatibility through mobile-first design. The project demonstrates my ability to create user-friendly, visually appealing websites with optimized performance and seamless navigation.',
+    },
+     {
+      img: CutzClub,
+      link: "https://cutzclubshop.netlify.app/",
+      title: 'CutzClub',
+      discr: 'I developed the front‑end of CutzClub, a modern barbershop platform, creating a responsive one‑page site with HTML5, CSS3, and JavaScript. The platform lets users browse barbers, choose flexible plans, and book appointments easily. I focused on accessibility, performance, and clean UI design to deliver a seamless and engaging user experience.',
     },
     {
       img: VanKessel,
